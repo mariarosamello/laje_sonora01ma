@@ -40,7 +40,50 @@ a{
    margin-inline: auto;
    margin-inline: 32px;
  }
+ .topo{
+    padding-block: 28px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center; 
+   } 
+   
+.logo{ 
+   font-family: "Big Shoulders", "Arial Narrow" , "sans-serif" ; 
+   font-size: 34px; 
+   font-weight: 900; 
+}
 
+.menu{
+   display: flex;
+   gap: 36px; 
+} 
+  
+  a{
+   font-weight: 600px;
+   text-decoration: none;
+   padding-bottom: 4px;
+   border-bottom: 4px solid transparent;
 
- 
- 
+  }
+
+a:hover{
+   border-bottom-color: var(--tinta);
+  }
+
+ a.atual{
+  border-color: var(--fita); 
+  } 
+
+.cartazes{
+   margin-top: 16px;
+   display: flex;
+   gap: 16px;
+}
+
+.cartaz{
+   padding: 40px;
+}
+.cartaz-principal{
+   background-color: var(--caixa-dagua);
+   color:  var(--branco);
+}
