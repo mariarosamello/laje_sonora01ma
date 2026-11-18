@@ -126,3 +126,60 @@ a:hover{
 .cartaz-lateral{
    align-items: flex-start
 }
+
+.secao{
+   margin-top: 96px;
+
+}
+.titulo-secao{
+   font-size: 64px;
+    margin-bottom: 32px;
+}
+
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 24px;
+}
+.card{
+   background-color: var(--branco);
+   border: 3px solid var(--tinta);
+   flex: 1 1 340px
+}
+
+.foto{
+   height: 170px;
+   background-color: var(--concreto-escuro);
+}
+
+.foto-azul{
+   background-color: var(--caixa-dagua);
+}
+
+.foto-amarela{
+   background-color: var(--fita);
+}
+
+.foto-tinta{
+   background-color: var(--tinta);
+}
+
+.card-texto{
+  padding: 24px; 
+}
+
+.card h3{
+   font-size: 36px;
+   margin-bottom: 12px;
+}
+
+.card-info{
+   margin-top: 20px;
+   padding-top: 16px;
+   font-weight: 600;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
